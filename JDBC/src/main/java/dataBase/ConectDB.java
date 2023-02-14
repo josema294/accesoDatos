@@ -251,6 +251,8 @@ public class ConectDB implements SchemaDB {
             ResultSet queryResultado =  stm.executeQuery(query);
             System.out.println("Los productos de mas de 1000e se han agregado a la tabla resultados");
 
+            stm.close();
+
 
 
 
